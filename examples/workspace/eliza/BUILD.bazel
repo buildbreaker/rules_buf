@@ -1,0 +1,5 @@
+java_library(
+    name = "eliza",
+    srcs = ["Eliza.java"],
+    deps = ["@remote_eliza_generated//:remote_sources"],
+)
